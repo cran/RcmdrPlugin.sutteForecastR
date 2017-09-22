@@ -1,0 +1,5 @@
+#########  Add menu for alpha-Sutte indicator  #########
+    menu    sutteRMenu       topMenu         ""                                              ""                     ""          ""
+    item    topMenu          cascade         "alpha-Sutte indicator"                                sutteRMenu             ""          "packageAvailable('sutteForecastR')"
+	item    sutteRMenu         command        "Forecast"                                 alphasutte                   "activeDataSetP()"                      "packageAvailable('sutteForecastR')"
+#########  End add menu for alpha-Sutte indicator #########

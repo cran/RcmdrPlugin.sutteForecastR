@@ -1,0 +1,5 @@
+exportPattern("^[^\\.]")
+  importFrom("Rcmdr","tclvalue")
+  importFrom("Rcmdr","tkfocus")
+  importFrom("Rcmdr","ttkentry")
+  import(Rcmdr, sutteForecastR)
